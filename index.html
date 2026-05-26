@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Muvio Fitness App</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #111827;
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --accent: #10b981;
+            --border: #1f2937;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border);
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+            margin-top: 0;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #ffffff;
+            font-size: 1.5rem;
+            margin-top: 30px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 8px;
+        }
+        h3 {
+            color: var(--accent);
+            font-size: 1.1rem;
+            margin-top: 20px;
+        }
+        p, li {
+            color: var(--text-secondary);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .highlight-box {
+            background-color: rgba(16, 185, 129, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .highlight-box p {
+            margin: 0;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+        .legal-notice {
+            background-color: rgba(239, 68, 68, 0.1);
+            border-left: 4px solid #ef4444;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .legal-notice p {
+            margin: 0;
+            color: #fca5a5;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            padding-top: 20px;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> May 26, 2026</p>
+        <p>This Privacy Policy describes how the <strong>Muvio Fitness App</strong> ("App", "we", "us", or "our"), operated by <strong>Nik Aver</strong> ("Operator"), collects, uses, protects, retains, and handles your user data when you use our mobile application and related services.</p>
+
+        <div class="legal-notice">
+            <p><strong>⚠️ DISCLAIMER / LIMITATION OF LIABILITY:</strong><br>
+            The Muvio Fitness App provides fitness tracking, workout analysis, AI coaching recommendations, and related health information for educational and recreational purposes only. It does not provide professional medical advice. By using this App, you expressly agree that you do so at your own risk. The App and Operator (Nik Aver) are not liable for any physical injuries, health complications, or damages resulting from workouts, diet, or recommendations accessed through this App. Consult a qualified medical practitioner before initiating any physical training program.</p>
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        <p>To provide a functional and personal fitness tracking experience, the App utilizes various device services and handles the following data types:</p>
+        
+        <h3>A. Account and Profile Information</h3>
+        <ul>
+            <li><strong>Authentication Data:</strong> Email address and credentials (managed securely via Google Firebase Authentication or Google Sign-In) to establish and maintain your user account.</li>
+            <li><strong>Profile Information:</strong> Name, age, gender, weight, height, and general fitness goals entered voluntarily to calculate exercise metrics.</li>
+        </ul>
+
+        <h3>B. Health, Activity, and Sensor Data</h3>
+        <ul>
+            <li><strong>Pedometer & Step Counts:</strong> Direct device step sensor data to record your daily step counts and calculate active calorie burn.</li>
+            <li><strong>Workout Logs:</strong> Customized exercises, durations, weights, and repetitions logged within the application.</li>
+        </ul>
+
+        <h3>C. Device and Permission-Based Data</h3>
+        <ul>
+            <li><strong>Location Data (Geolocator):</strong> With your explicit consent, we access your device's location to track your real-time running, walking, or cycling routes on active maps. Location tracking runs exclusively during active workout sessions and is not tracked in the background unless explicitly authorized.</li>
+            <li><strong>Camera Access:</strong> Utilized for scanning QR codes or barcodes (via Mobile Scanner) or taking progress/profile pictures.</li>
+            <li><strong>Audio & Microphone (Record API):</strong> Utilized if you engage in voice controls or audio note captures within App workflows.</li>
+        </ul>
+
+        <h3>D. Third-Party Integrations & AI Systems</h3>
+        <ul>
+            <li><strong>Google Generative AI (Gemini API):</strong> The App contains interactive AI tools that process your logged fitness metrics securely via Google Generative AI to provide customized health recommendations. No personally identifying information is sold to third parties.</li>
+        </ul>
+
+        <h2>2. Data Retention Policy</h2>
+        <p>In accordance with Google Play developer guidelines, we maintain a clear data retention structure:</p>
+        <div class="highlight-box">
+            <p><strong>Retention Period:</strong> Your user profile, workout histories, and files are stored securely in Google Cloud Firestore and Storage as long as your user account remains active. If your account is completely inactive for a continuous period of <strong>twenty-four (24) months</strong>, we reserve the right to securely purge and permanently delete all your user data from our databases.</p>
+        </div>
+
+        <h2>3. Data Deletion Policy (Your Right to Erasure)</h2>
+        <p>We respect your privacy and provide immediate, unhindered control over your personal data.</p>
+        <div class="highlight-box">
+            <p><strong>How to Delete Your Data:</strong><br>
+            1. <strong>In-App Deletion:</strong> You can permanently delete your entire account and all associated physical logs instantly by navigating to the App's **Settings** screen and clicking the **"Delete Account"** button.<br>
+            2. <strong>Manual Deletion Request:</strong> If you cannot access the App, you may email us directly at <strong>avernik1804@gmail.com</strong> with the subject line <em>"Data Deletion Request"</em>. We will permanently delete your account and all associated cloud-hosted data within <strong>seven (7) business days</strong> of receiving your request.</p>
+        </div>
+
+        <h2>4. Data Protection and Security</h2>
+        <p>We employ robust industry-standard safeguards to protect your information. All cloud data transmissions utilize Secure Socket Layer (SSL) encryption, and database structures are hosted on secure, restricted Google Firebase server frameworks. However, no database transmission over the internet can be guaranteed as 100% secure.</p>
+
+        <h2>5. No Liability and Indemnification</h2>
+        <p>To the maximum extent permitted by applicable Slovenian and international laws, the Operator (Nik Aver) shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from your use, misuse, or reliance on information or algorithms contained in the App. You agree to defend, indemnify, and hold harmless the Operator from any claims, actions, or demands arising out of your workout execution or physical activities.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions regarding this Privacy Policy, your data permissions, or deletion requests, please contact us at:</p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:avernik1804@gmail.com">avernik1804@gmail.com</a><br>
+            <strong>Developer Organization:</strong> Nik Aver, Ankaran, Slovenia
+        </p>
+
+        <footer>
+            <p>© 2026 Muvio Fitness App. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
